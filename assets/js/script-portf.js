@@ -1,19 +1,4 @@
-//  ==========================
-// Tooltips  codigo de manejo
-// ===========================
-    const links = document.querySelectorAll('.nav-item');
-    links.forEach(link => {
-      link.addEventListener('mouseover', function() {
-        const tooltip = this.querySelector('.tooltip-message');
-        tooltip.style.display = 'block';
-      });
-
-      link.addEventListener('mouseout', function() {
-        const tooltip = this.querySelector('.tooltip-message');
-        tooltip.style.display = 'none';
-      });
-    });
-
+ 
  
 // ===========================================================================================
 // cosa para cerrar menu hamburgesa cuando se active y se selecciones una opcion	
