@@ -297,7 +297,7 @@
 }
 
 .p-container ul li p {
-  font-family: "Reenie Beanie", arial, sans-serif;
+  font-family: "Reenie Beanie", verdana, sans-serif;
   font-size: 100%;
   color: #FFF !important; /* Asegura que el color del texto sea blanco */
 }
