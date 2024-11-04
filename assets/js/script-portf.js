@@ -1,7 +1,7 @@
  
  
 // ===========================================================================================
-// cosa para cerrar menu hamburgesa cuando se active y se selecciones una opcion	
+// cosa para cerrar menu chacarero cuando se active y se selecciones una opcion	
 // ya no aplica porque las opciones son link a otras paginas.  Se mantiene por si se agregan
 // ============================================================================================
 	document.addEventListener('DOMContentLoaded', function() {
@@ -31,7 +31,7 @@
       form.addEventListener('submit', (event) => {
         event.preventDefault();
         alert('Formulario enviado');
-        // Aquí puedes agregar tu lógica para enviar el formulario, por ejemplo, con AJAX.
+        // Aquí  agregar   lógica para enviar el formulario 
         form.reset();
       });
     });
@@ -44,7 +44,7 @@ $(document).ready(function() {
         "<div>" +
         "<h4><u class='HabilidadFuenteTit'>Bienvenido</u></h4>" +
         "<p id='yoparrafo' class='HabilidadFuenteText'>" +
-        "&nbsp;&nbsp;&nbsp; Soy titulado en análisis de sistemas y desarrollo de Aplicaciones Full Stack Python. " +
+        "&nbsp;&nbsp;&nbsp; Soy titulado en análisis de sistemas  . " +
         "Lo que más me motiva en mi trabajo es la oportunidad de resolver problemas " +
         "creando soluciones innovadoras y la eficiencia de una organización. " +
         "Por último, colaborar con equipos multidisciplinarios y compartir conocimientos también es una gran fuente " +
